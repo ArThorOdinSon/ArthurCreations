@@ -27,6 +27,8 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
@@ -47,11 +49,11 @@
                 <a href="#projects" class="nav-item nav-link">Projects</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+            <a href="" class="btn btn-outline-primary ml-lg-3">Hire Me</a>
         </div>
     </nav>
     <!-- Navbar End -->
-
+    
 
     <!-- Video Modal Start -->
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -85,7 +87,7 @@
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Back End Developer, Shopify Developer</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="" class="btn btn-outline-light mr-5">Download CV</a>
+                        <a href="" class="btn btn-outline-light mr-5" onclick="window.open('./img/ResumeCV_BregondoV2.pdf')">Download CV</a>
                         <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                             <span></span>
@@ -100,65 +102,66 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+<div class="container-fluid pt-5" id="service">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+        </div>
+        <div class="row pb-3">
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Web Design</h4>
+                </div>
+                <p>I create visually stunning and user-friendly websites tailored to your brand's needs, ensuring a seamless user experience.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
             </div>
-            <div class="row pb-3">
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Web Design</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Web Development</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Web Development</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>From front-end to back-end, I develop robust and scalable web solutions that meet your business requirements.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Apps Design</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Apps Design</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Designing intuitive and engaging mobile app interfaces for both Android and iOS platforms, focused on user experience.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-shopping-cart service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Shopify Development</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Shopify Development</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Specializing in creating and customizing Shopify stores to enhance your e-commerce presence and drive sales.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">SEO</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">SEO</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Implementing effective SEO strategies to improve your website's visibility and ranking on search engines.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Content Creation</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Content Creating</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                </div>
+                <p>Creating compelling and high-quality content to engage your audience and communicate your brand's message effectively.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
             </div>
         </div>
     </div>
-    <!-- Services End -->
+</div>
+<!-- Services End -->
+
 
 
     <!-- About Start -->
@@ -181,8 +184,7 @@
                         <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">1 year</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+63 9328697579</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">agtbregondo@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
+                        </div>
                     <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
                     <a href="" class="btn btn-outline-primary">Learn More</a>
                 </div>
@@ -540,10 +542,9 @@
     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="mailto:agtbregondo@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/arthur-gabriel-bregondo-30ba57268"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://github.com/ArThorOdinSon"><i class="fab fa-github"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>
