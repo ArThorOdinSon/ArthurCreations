@@ -10021,12 +10021,21 @@ h6,
     display: flex;
     justify-content: space-between;
   }
+
+  .details-container {
+    flex: 1;
+    max-width: 30%; /* Adjust this to fit your layout */
+  }
 }
 
 /* Layout for smaller screens */
 @media (max-width: 767px) {
   .experience-details-container {
     display: block;
+  }
+
+  .details-container {
+    width: 100%;
   }
 }
 
@@ -10165,7 +10174,6 @@ div.full figure:not(.expanded) {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
